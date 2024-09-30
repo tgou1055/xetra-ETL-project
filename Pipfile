@@ -10,6 +10,8 @@ boto3 = "*"
 pandas = "*"
 pyarrow = "*"
 fastparquet = "*"
+pyyaml = "*"
+pylint = "*"
 
 [dev-packages]
 
