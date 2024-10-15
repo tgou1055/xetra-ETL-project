@@ -3,7 +3,7 @@ Connector and methods accessing S3 buckets on AWS
 """
 import os
 import logging
-import boto3 # type: ignore
+import boto3
 
 class S3BucketConnector():
     """
@@ -42,8 +42,9 @@ class S3BucketConnector():
         """
         Read CSV file from S3 bucket and convert it to a Pandas DataFrame object
         """
-
+        return True
     def write_df_to_s3(self):
         """
         Write the Pandas DataFrame to S3 bucket
         """
+        return True
