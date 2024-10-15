@@ -1,9 +1,8 @@
 # xetra-ETL-project
-# new location
 
-# Add our ETL package to Pythonpath
+# Run
+sudo apt update 
+sudo apt install python3 
+sudo apt install python3-pip
 
-nano ~/.bashrc
-export PYTHONPATH=~/xetra-ETL-project
-
-source ~/.bashrc
+sudo apt install pipenv
