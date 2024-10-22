@@ -3,7 +3,7 @@ Connector and methods accessing S3 buckets on AWS
 """
 import os
 import logging
-import boto3
+import boto3 #type: ignore
 
 class S3BucketConnector():
     """
